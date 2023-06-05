@@ -21,6 +21,9 @@ main {
   align-items: center;
   margin: 20px;
 }
+main i {
+  padding: 2rem;
+}
 
 .container {
   margin-top: 1rem;
