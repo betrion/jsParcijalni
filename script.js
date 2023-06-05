@@ -45,7 +45,7 @@ const getResults = async (searchTerm) => {
       noResults.classList.add("hidden");
       rezultati.forEach((pjesma) => {
         const li = document.createElement("li");
-        li.innerHTML = `<span><img src="${pjesma.artworkUrl100}"></span>${pjesma.trackName} - ${pjesma.artistName}`;
+        li.innerHTML = `<span><img src="${pjesma.artworkUrl100}"></span>${pjesma.artistName} - ${pjesma.trackName}`;
         ul.appendChild(li);
       });
     }
